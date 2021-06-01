@@ -1,0 +1,29 @@
+body {
+  background-image: url("https://thumbs.dreamstime.com/t/grass-sky-seamless-faint-clouds-image-tiles-seamlessly-horizontally-49385084.jpg");
+  background-repeat: no-repeat;
+  background-size: 2000px 1100px;
+}
+#circle {
+  background: #f00;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+div {
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px grey;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+#two {
+  float: right;
+  margin-right: 510px;
+  margin-top: -100px;
+}

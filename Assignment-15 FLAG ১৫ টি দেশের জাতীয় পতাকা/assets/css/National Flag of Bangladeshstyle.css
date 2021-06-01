@@ -1,0 +1,21 @@
+*{
+    border:0px;
+    margin:0px}
+    
+.ractangle{
+    margin:0 auto; 
+    width:500px; 
+    height:300px; 
+    background:green; 
+    margin-top:60px; 
+    position:relative;
+}
+.circle{
+    height:250px; 
+    width:250px; 
+    border-radius:500px; 
+    background:rgb(255, 0, 0); 
+    margin-left:140px; 
+    margin-top:25px; 
+    position:absolute
+}

@@ -1,0 +1,30 @@
+* {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background: #212f3d;
+}
+h1 {
+  color: #d0d3d4;
+}
+
+.flag {
+  margin: auto;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.stripe {
+  display: block;
+  width: 100%;
+}
+.red {
+  background-color: #aa151b;
+  height: 25%;
+}
+.yellow {
+  background-color: #f1bf00;
+  height: 50%;
+}

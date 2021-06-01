@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: rgb(75, 75, 75);
+}
+.team {
+  background-color: black;
+  text-align: center;
+  box-shadow: 10px 10px 10px 0px rgb(5, 5, 5);
+  border: double;
+  border-color: rgb(179, 178, 178);
+  width: 30%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.team img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.team h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+.team p {
+  font-size: 14px;
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

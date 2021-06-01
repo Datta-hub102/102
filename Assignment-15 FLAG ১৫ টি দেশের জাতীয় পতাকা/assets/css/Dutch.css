@@ -1,0 +1,36 @@
+.all {
+  margin: 0px 300px 0px;
+}
+body {
+  background-color: rgb(70, 70, 70);
+}
+.red {
+  background-color: red;
+  width: 600px;
+  height: 100px;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.white {
+  background-color: white;
+  width: 600px;
+  height: 100px;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.blue {
+  background-color: blue;
+  width: 600px;
+  height: 100px;
+  display: block;
+  top: 0;
+  left: 0;
+}
+.red h1 {
+  text-align: center;
+  color: antiquewhite;
+}

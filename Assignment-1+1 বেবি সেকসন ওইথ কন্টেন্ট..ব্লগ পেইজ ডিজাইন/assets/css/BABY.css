@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+}
+.baby1 {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(32, 32, 32);
+  overflow: hidden;
+}
+.baby2 {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(../img/BABY.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+.baby3 {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(32, 32, 32);
+}
+.baby1 h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50px;
+  margin: 230px auto;
+}
+.baby2 h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: aliceblue;
+}
+.baby2 p {
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
+}
+.baby2 a {
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  color: brown;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+$currentWidth = 500px
+$ratio_2to3   = 2/3
+$one_third    = 33.33333333333333%
+$red_it = #CE2B37
+$white_it = #F1F2F1
+$green_it = #009246
+
+body
+  font-family: 'Open Sans', Arial, sans-serif
+  padding: 30px
+  background #F2F8FA
+  text-align: center
+  
+h1
+  font-weight: 300
+
+p
+  font-size: 12px
+  color: grey
+  
+vertical_tricolor(first, second, third)
+  background linear-gradient(to left, first 0%, first $one_third, second $one_third, second ($one_third*2), third ($one_third*2), third ($one_third*3))
+
+vex_height(value)
+  height $currentWidth * value
+  
+.italy
+  width: $currentWidth
+  margin: 0 auto
+  vex_height($ratio_2to3)
+  vertical_tricolor($red_it, $white_it, $green_it)

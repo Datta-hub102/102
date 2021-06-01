@@ -1,0 +1,43 @@
+body {
+  background-color: #296d4a;
+}
+.all h1 {
+  text-align: center;
+  margin: -1px 40%;
+}
+.all {
+  margin: 100px 40%;
+}
+.flag {
+  width: 300px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.italy-flag {
+  width: 100%;
+  padding-bottom: 66.667%;
+  background-color: #f1f2f1;
+  position: relative;
+  margin: 0;
+}
+
+.italy-flag::before {
+  content: " ";
+  position: absolute;
+  background-color: #009246;
+  width: 33.33%;
+  height: 100%;
+}
+
+.italy-flag::after {
+  content: " ";
+  position: absolute;
+  background-color: #ce2b37;
+  width: 33.33%;
+  height: 100%;
+  right: 0;
+}

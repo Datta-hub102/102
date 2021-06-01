@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: black;
+}
+.flag1 h1 {
+  color: #c0c0c0;
+  margin-bottom: 330px;
+  margin-left: 110%;
+}
+.flag {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flag::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-top: 100px solid #ff9933;
+  border-bottom: 100px solid #138808;
+  box-sizing: border-box;
+}
+
+.flag img {
+  position: relative;
+  max-width: 100px;
+  z-index: 100;
+  margin-right: 100px;
+  width: 100%;
+  animation: rotate 20s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
